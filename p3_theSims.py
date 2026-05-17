@@ -154,6 +154,9 @@ class Human:
             else:
                 print('I need a rest. . .')
                 self.chill()
+        elif self.car.fuel < 20:
+            print('Buying fuel')
+            self.shopping(manage='fuel')
         elif self.money < 0:
             print('Working. . .')
             self.work()
