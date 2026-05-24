@@ -15,7 +15,7 @@ def adder(*args, **kwargs):
             except (ValueError, TypeError):
                 pass
     for i in kwargs.values():
-        if type(i) == int or type(i) == bool or type(i) == float:
+        if type(i) == int or type(i)== bool or type(i) == float:
             result += i
         else:
             try:

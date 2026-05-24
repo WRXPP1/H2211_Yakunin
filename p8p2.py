@@ -7,4 +7,4 @@ logging.basicConfig(level=logging.DEBUG,
 try:
     print(10/0)
 except Exception:
-    logging.exception("Exception")
+    logging.exception("Exception ")
